@@ -427,43 +427,43 @@ export default {
     overflow:scroll;
     background: url("../assets/img/CAPIDUN_background.png") no-repeat;
     background-size: 100% 100%;
-    background-size:cover;
+    background-size:cover
 }
 
 .header{
     width: 530px;
     height: 185px;
-    margin: 75px auto 0;
+    margin: 75px auto 0
 }
 .header img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 .button{
     width: 670px;
     height: 50px;
-    margin: 30px auto 0;
+    margin: 30px auto 0
 }
 .button .button1{
     width: 210px;
     height: 40px;
-    float: left;
+    float: left
 }
 .button .button2{
     width: 210px;
     height: 40px;
     float: left;
-    margin-left: 20px;
+    margin-left: 20px
 }
 .button .button3{
     width: 210px;
     height: 40px;
     float: left;
-    margin-left: 20px;
+    margin-left: 20px
 }
 .button img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 /* 1/4半决赛框 */
 .One-fourthFinal{
@@ -472,10 +472,10 @@ export default {
     margin: 20px auto 0;
     background: url("../assets/img/One-fourthFinal_background.png") no-repeat;
     background-size: 100% 100%;
-    overflow: hidden;
+    overflow: hidden
 }
 .game1{
-    margin-top: 85px;
+    margin-top: 85px
 }
 
 /* 半决赛框 */
@@ -485,7 +485,7 @@ export default {
     margin: 20px auto 0;
     background: url("../assets/img/semifinals_background.png") no-repeat;
     background-size: 100% 100%;
-    overflow: hidden;
+    overflow: hidden
 }
 /* 3或4名半决赛框 */
 .threeOrFourFinals{
@@ -494,7 +494,7 @@ export default {
     margin: 20px auto 0;
     background: url("../assets/img/threeOrFourFinals_background.png") no-repeat;
     background-size: 100% 100%;
-    overflow: hidden;
+    overflow: hidden
 }
 /* 决赛 */
 .finals{
@@ -504,28 +504,28 @@ export default {
     background: url("../assets/img/finals_background.png") no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
-    position: relative;
+    position: relative
 }
 .img_trophy{
     width: 100%;
     height: 300px;
-    margin-top: 40px;
+    margin-top: 40px
 }
 .img_trophy img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 .img_logo{
     width: 400px;
     height: 120px;
-    margin: 20px auto 50px;
+    margin: 20px auto 50px
    
 }
 .img_logo img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 .footer{
-    padding-bottom: 80px;
+    padding-bottom: 80px
 }
 </style>
