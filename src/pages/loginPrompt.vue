@@ -36,28 +36,28 @@ export default {
     margin: 400px auto 0;
     background: url("../assets/img/yeay_background.png") no-repeat;
     background-size: 100% 100%;
-    position: relative;
+    position: relative
 }
 .p1{
    font-size: 50px;
    font-weight: 600;
-   padding-top: 80px; 
+   padding-top: 80px
 }
 .p2,.p3{
     margin-top: 10px;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 600
 }
 p{
-    color: #e13333;
+    color: #e13333
 }
 .button{
     width: 200px;
     height: 60px;
-    margin: 100px auto 0;
+    margin: 100px auto 0
 }
 .button img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 </style>

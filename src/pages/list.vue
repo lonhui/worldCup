@@ -110,24 +110,24 @@ export default {
     margin: 150px auto 0;
     background: url("../assets/img/Pop-ups_background.png") no-repeat;
     background-size: 100% 100%; 
-    position: relative;
+    position: relative
 }
 .end{
     width: 70px;
     height: 70px;
     position: absolute;
     left: 550px;
-    top: -20px;
+    top: -20px
 }
 .end img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 h2{
     color: #1594c3;
     font-size: 40px;
     font-weight: 800;
-    padding-top: 50px;
+    padding-top: 50px
 }
 .header{
     color: #1594c3;
@@ -135,15 +135,15 @@ h2{
     width: 550px;
     margin: 20px auto 0;
     border: #1594c3 2px solid;
-    border-radius:30px 30px 30px 30px;
+    border-radius:30px 30px 30px 30px
 }
 .header table{
     width: 550px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center
 }
 .header table td{
-    width: 135px;
+    width: 135px
 }
 .text{
     color: #1594c3;
@@ -152,37 +152,30 @@ h2{
     width: 550px;
     height: 780px;
     margin: 20px auto 0;
-    overflow:scroll;
+    overflow:scroll
 
 }
 .text table{
     width: 550px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center
 }
 .text table .td{
     width: 135px;
     height: 100px;
-    border-right: #1594c3 4px solid;
-    /* border: red 1px solid; */
+    border-right: #1594c3 4px solid
 } 
 .text table td .p{
     margin-top:30px; 
 }
-/* .text table td .p2,.text table td .p3,.text table td .p4{
-    margin-top: 40px;
-} */
 .text table td .img{
     width: 85px;
-    /* height: 100px; */
-    margin: 0 auto;
-    /* border: red 1px solid; */
+    margin: 0 auto
 }
 
 .text table td .img .pp{
     width: 50px;
     margin-top: 20px;
-    /* border: red 1px solid; */
 }
 .text table .td_img img{
     width: 30px;
@@ -190,7 +183,6 @@ h2{
     margin-left: 4px;
     position: relative;
     top:-40px;
-    left: 28px;
-    /* border: red 1px solid; */
+    left: 28px
 }
 </style>

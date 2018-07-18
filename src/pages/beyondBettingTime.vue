@@ -38,14 +38,14 @@ export default {
     margin: 400px auto 0;
     background: url("../assets/img/yeay_background.png") no-repeat;
     background-size: 100% 100%;
-    position: relative;
+    position: relative
 }
 .end{
     width: 70px;
     height: 70px;
     position: absolute;
     left: 550px;
-    top: -20px;
+    top: -20px
 }
 .end img{
     width: 100%;
@@ -54,22 +54,22 @@ export default {
 .p1{
    font-size: 50px;
    font-weight: 600;
-   padding-top: 80px; 
+   padding-top: 80px
 }
 .p2,.p3{
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 600
 }
 .p4{
     margin-top: 50px;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 600
 }
 .p5{
     font-size: 32px;
-    font-weight: 600; 
+    font-weight: 600;
 }
 p{
-    color: #e13333;
+    color: #e13333
 }
 </style>

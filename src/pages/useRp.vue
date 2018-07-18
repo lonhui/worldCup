@@ -2,15 +2,12 @@
     <div id="userRp" @touchmove.prevent>
         <!-- 您确定要使用Rp 下注吗？ -->
         <div class="content">
-            <div class="text">
-                <p>Apakah kamu yakin ingin menggunakan tabungan Rp {{RpNum}} untuk mendukung jagoanmu?</p>
-            </div>
+            <div class="text"><p>Apakah kamu yakin ingin menggunakan tabungan Rp {{RpNum}} untuk mendukung jagoanmu?</p></div>
             <div class="button">
                 <div class="yes"><img src="@/assets/img/button_ya.png" @click="closeUseRpAndVote"></div>
                 <div class="no"><img src="@/assets/img/button_tidak.png" @click="closeUseRp"></div>
             </div>
         </div>
-        
     </div>
 </template>
 
@@ -44,18 +41,18 @@ export default {
     margin: 300px auto 0;
     background: url("../assets/img/useRp_background.png") no-repeat;
     background-size: 100% 100%;
-    position: relative;
+    position: relative
 }
 .end{
     width: 70px;
     height: 70px;
     position: absolute;
     left: 550px;
-    top: -20px;
+    top: -20px
 }
 .end img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 .text p{
     width: 500px;
@@ -63,25 +60,25 @@ export default {
     color: #e13333;
     font-size: 44px;
     font-weight: 600;
-    padding-top: 80px;
+    padding-top: 80px
 }
 .button{
     width: 500px;
     height: 65px;
-    margin: 120px auto 0;
+    margin: 120px auto 0
 }
 .yes{
     width: 220px;
     height: 65px;
-    float: left;
+    float: left
 }
 .no{
     width: 220px;
     height: 65px;
-    float: right;
+    float: right
 }
 .yes img,.no img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 </style>

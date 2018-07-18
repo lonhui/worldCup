@@ -84,9 +84,6 @@ export default {
         'v-userNotExist':userNotExist,
         'v-beyondBettingTime':beyondBettingTime
     },
-    mounted(){
-        
-    },
     methods:{
         closeVote(){
             this.$emit('on-close')
@@ -99,7 +96,6 @@ export default {
             }else{
                 this.useRpShow = false
             }
-            
         },
         openYeay(){this.yeayShow = true},
         closeYeay(){
@@ -208,7 +204,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(7, 17, 27, 0.8);
+    background: rgba(7, 17, 27, 0.8)
 }
 .content{
     width: 600px;
@@ -216,43 +212,43 @@ export default {
     margin: 200px auto 0;
     background: url("../assets/img/vote_background.png") no-repeat;
     background-size: 100% 100%;
-    position: relative;
+    position: relative
 }
 .end{
     width: 70px;
     height: 70px;
     position: absolute;
     left: 550px;
-    top: -20px;
+    top: -20px
 }
 .end img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 .header{
-    width: 600px;
+    width: 600px
 }
 .header h2{
     color: #fff;
     font-size: 38px;
     font-weight: 600;
-    padding-top: 60px;
+    padding-top: 60px
 }
 .header p{
     color: #fff;
     font-size: 26px;
-    margin-top: 5px;
+    margin-top: 5px
 }
 .team{
     width: 500px;
     height: 200px;
-    margin: 50px auto 0;
+    margin: 50px auto 0
 }
 .team .home{
     width: 180px;
     height: 200px;
     float: left;
-    position: relative;
+    position: relative
 }
 .team .home .flag{
     width: 100%;
@@ -263,65 +259,64 @@ export default {
     height: 100px;
     position: absolute;
     left: 110px;
-    top: 110px;
+    top: 110px
 }
 .team .vs{
     width: 130px;
     height: 200px;
-    float: left;
+    float: left
 }
 .team .vs p{
     color: #fff;
     font-size: 60px;
     font-weight: 800;
-    margin-top: 50px;
+    margin-top: 50px
 } 
 .team .Visiting{
     width: 180px;
     height: 200px;
     float: right;
-    position: relative;
+    position: relative
 }
 .team .Visiting .boll{
     width: 100px;
     height: 100px;
     position: absolute;
     left: 110px;
-    top: 110px;
+    top: 110px
 }
 .team .Visiting img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 .t{
     width: 500px;
-    margin:50px auto 0;
+    margin:50px auto 0
 }
 .t h3{
     color: #fff;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 700
 }
-
 .num{
     width: 500px;
     height: 120px;
-    margin: 40px auto 0;
+    margin: 40px auto 0
 }
 .num .trophy{
     width: 90px;
     height: 120px;
     float: left;
-    margin-left: 30px;
+    margin-left: 30px
 }
 .num .trophy img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 .num .input{
     width: 330px;
     height: 120px;
-    float: right;
+    float: right
 }
 .num .input input{
     color: #b60000;
@@ -336,13 +331,13 @@ export default {
     position: relative;
     text-align: center;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 600
 }
 .num .input .Less{
     color: #fff;
     font-size: 80px;
     width: 70px;
-    float: left;
+    float: left
 }
 .num .input .add{
     color: #fff;
@@ -350,23 +345,23 @@ export default {
     width: 70px;
     float: left;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 10px
 }
 .button{
     width: 250px;
     height: 70px;
-    margin: 50px auto 0;
+    margin: 50px auto 0
 }
 .button img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 .Rp{
     width: 150px;
     float: right;
     color: #fff;
     font-size: 30px;
-    margin-right: 50px;
+    margin-right: 50px
     
 }
 </style>

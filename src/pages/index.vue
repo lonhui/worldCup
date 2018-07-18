@@ -203,16 +203,13 @@ export default {
                 count:0,
                 price:null,
             }
-            
         }
     },
     mounted(){
         this.getDatas()
         this.getUAndD()
-        
         this.getCookie()
         this.setCookie(this.user.uid)
-
         this.timer = setInterval(()=>{
             this.getDatas()
         },60000)
@@ -236,7 +233,6 @@ export default {
                 this.openNeedToKnow()
                 this.ruleData.count = 0
             }
-            
         },
         openNeedToKnow(){this.needToKnowShow = true},
         closeNeedToKnow(){this.needToKnowShow = false},
@@ -250,7 +246,6 @@ export default {
         getDatas(){
             this.$axios.get('http://campaign.caping.co.id/cup/match')
             .then((res)=>{
-                console.log(res)
                 for(let i = 0;i < res.data.data.list.length;i++){
                     if(res.data.data.list[i].guestOdds!= null&&res.data.data.list[i].homeOdds!=null){
                         res.data.data.list[i].guestOdds =  Math.floor(res.data.data.list[i].guestOdds*100)/100
@@ -377,7 +372,6 @@ export default {
             }
             this.idAndPrice.uid = this.user.uid
             this.idAndPrice.device_id = this.user.device_id
-            
         },
         //设置cookie
         setCookie(uid,exdays){
@@ -409,7 +403,6 @@ export default {
                 this.ruleData.count = 1
                 this.openDescription()
             }
-            
         },
         //清除cookie
         clearCookie:function () {
@@ -429,7 +422,6 @@ export default {
     background-size: 100% 100%;
     background-size:cover
 }
-
 .header{
     width: 530px;
     height: 185px;
@@ -519,7 +511,6 @@ export default {
     width: 400px;
     height: 120px;
     margin: 20px auto 50px
-   
 }
 .img_logo img{
     width: 100%;

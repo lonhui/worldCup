@@ -74,44 +74,44 @@ export default {
     margin: 80px auto 0;
     background: url("../assets/img/Pop-ups_background.png") no-repeat;
     background-size: 100% 100%;
-    position: relative;
+    position: relative
 }
 .end{
     width: 70px;
     height: 70px;
     position: absolute;
     left: 550px;
-    top: -20px;
+    top: -20px
 }
 .end img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 h2{
     font-size: 30px;
     font-weight: 800;
     color: #1594c3;
-    line-height: 60px;
+    line-height: 60px
 }
 .title{
     width: 500px;
     margin: 0 auto;
     padding-top: 50px;
-    border-bottom: #1594c3 4px solid;
+    border-bottom: #1594c3 4px solid
 }
 .text{
     width: 100%;
     height: 850px;
     margin: 20px auto 0;
-    overflow:scroll;
+    overflow:scroll
 }
 .text div{
     width: 550px;
-    margin: 20px auto 0;
+    margin: 20px auto 0
 }
 .text p{
     font-size: 28px;
     color: #1594c3;
-    text-align:left;
+    text-align:left
 }
 </style>

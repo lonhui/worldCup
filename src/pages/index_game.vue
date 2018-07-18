@@ -29,7 +29,6 @@
             <div class="black" v-if="blackShow"></div>
         </div> 
     </div>
-    
 </template>
 
 <script>
@@ -62,12 +61,12 @@ export default {
         //倒计时s
         time(){
             this.timer = setInterval(()=>{
-                var leftTime = this.data.endTime - (new Date())/1000    //获取时间戳差（结束时间-当前时间），单位秒
+                var leftTime = this.data.endTime - (new Date())/1000//获取时间戳差（结束时间-当前时间），单位秒
                 if(leftTime > 0){
-                    var d = parseInt(leftTime / 60 / 60 / 24 , 10)  //获得天数
-                    var h = parseInt(leftTime / 60 / 60 % 24 , 10)  //获得小时
-                    var m = parseInt(leftTime / 60 % 60, 10)    //获得分钟
-                    var s = parseInt(leftTime % 60, 10)     //获得秒钟
+                    var d = parseInt(leftTime / 60 / 60 / 24 , 10)//获得天数
+                    var h = parseInt(leftTime / 60 / 60 % 24 , 10)//获得小时
+                    var m = parseInt(leftTime / 60 % 60, 10)//获得分钟
+                    var s = parseInt(leftTime % 60, 10)//获得秒钟
                     //将天数转换为小时显示（需求绝定）
                     if(d > 0){
                         h = d * 24 + h
@@ -82,7 +81,6 @@ export default {
                     if(s < 10){
                         s = '0' + s
                     }
-                    
                     this.status = 'SISA WAKTU VOTING | ' + h + ':' + m + ':' + s    //倒计时格式  时：分：秒
                 }else{
                     //倒计时结束后显示
@@ -108,10 +106,10 @@ export default {
     margin: 20px auto 0;
     background: url("../assets/img/White_background.png") no-repeat;
     background-size: 100% 100%;
-    overflow: hidden;
+    overflow: hidden
 }
 #game{
-    position: relative;
+    position: relative
 }
 .black{
     width: 600px;
@@ -119,78 +117,78 @@ export default {
     position: absolute;
     top: 0px;
     background: rgba(7, 17, 27, 0.5);
-    border-radius:28px 25px 25px 27px;
+    border-radius:28px 25px 25px 27px
 }
 .time{
     width: 300px;
     font-size: 28px;
     margin: 20px auto 0;
     background-color: #fff;
-    border-radius:10px 10px 10px 10px;
+    border-radius:10px 10px 10px 10px
 }
 .score{
     width: 550px;
     height: 80px;
-    margin: 50px auto 0;
+    margin: 50px auto 0
 }
 .status{
     width: 500px;
     height: 20px;
     margin: 20px auto 0;
     font-size: 28px;
-    color: #fff;
+    color: #fff
 }
 /* game1样式 */
 .button_game1{
     width: 220px;
     height: 60px;
-    margin: 40px auto 0;
+    margin: 40px auto 0
 }
 .button_game1 img{
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 /* 左 */
 .game .score .left{
     width: 225px;
     height: 80px;
     float: left;
-    position: relative;
+    position: relative
 }
 .game .score .VS{
     width: 100px;
     height: 80px;
     font-size: 60px;
     color: #fff;
-    float: left;
+    float: left
 }
 .game .score .VS p{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 10px
 }
 .game .score .left .round{
-    position: relative;
+    position: relative
 }
 .game .score .left .round .teamName{
     color:  #fff;
     width: 200px;
     position: absolute;
     left: 15px;
-    top: -35px;
+    top: -35px
 }
 .game .score .left .round .odds{
     color:  #fff;
     width: 100px;
     position: absolute;
     left: 55px;
-    top: 90px;
+    top: 90px
 }
 .game .score .left .round img{
     width: 80px;
     height: 80px;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 0
 }
 .game .score .left .num{
     width: 80px;
@@ -200,24 +198,24 @@ export default {
     border-radius:30px 30px 30px 30px;
     position: absolute;
     left: 145px;
-    top: 0;
+    top: 0
 }
 .game .score .left .White img{
     width: 90px;
     height: 40px;
-    margin: 20px auto 0;
+    margin: 20px auto 0
 }
 /* 右 */
 .game .score .right{
     width: 225px;
     height: 80px;
     float: left;
-    position: relative;
+    position: relative
 }
 .game .score .right .White img{
     width: 90px;
     height: 40px;
-    margin: 20px auto 0;
+    margin: 20px auto 0
 }
 .game .score .right .num{
     width: 80px;
@@ -227,39 +225,39 @@ export default {
     border-radius:30px 30px 30px 30px;
     position: absolute;
     left: 0;
-    top: 0;
+    top: 0
 }
 .game .score .right .round img{
     width: 80px;
     height: 80px;
     position: absolute;
     left: 145px;
-    top: 0;
+    top: 0
 }
 .num p{
     font-size: 46px;
     font-weight: 600;
     margin-top: 10px;
     text-align: center;
-    color: #3b882b;
+    color: #3b882b
 }
 .game .score .right .round{
     position: relative;
-    top: -65px;
+    top: -65px
 }
 .game .score .right .round .teamName{
     color: #ffffff;
     width: 200px;
     position: absolute;
     right: 10px;
-    top: -35px;
+    top: -35px
 }
 .game .score .right .round .odds{
     color: #fff;
     width: 100px;
     position: absolute;
     right: 60px;
-    top: 90px;
+    top: 90px
 }
 </style>
 
