@@ -418,7 +418,7 @@ export default {
     height: 1330px;
     margin: 0 auto;
     overflow:scroll;
-    background: url("../assets/img/CAPIDUN_background.png") no-repeat;
+    background: url("../assets/img/CAPIDUN_background.jpg") no-repeat;
     background-size: 100% 100%;
     background-size:cover
 }
